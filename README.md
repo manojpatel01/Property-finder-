@@ -1,5 +1,7 @@
-Tech Stack
+Project Structure
+This is a full-stack application with React frontend and Express backend.
 
+Tech Stack
 Frontend:
 ⚛️ React 18 + Vite
 🎨 Tailwind CSS
@@ -10,3 +12,29 @@ Backend:
 🚀 Express.js
 🍃 MongoDB (Mongoose)
 🔧 Node.js (ES6 Modules)
+
+
+Getting Started
+Start the backend:
+
+cd backend
+npm run dev
+Start the frontend (in a new terminal):
+
+cd frontend
+npm run dev
+Frontend: http://localhost:5173
+Backend: http://localhost:5000
+Project Structure
+./
+├── frontend/          # React app
+│   ├── src/
+│   ├── public/
+│   └── package.json
+├── backend/           # Express API
+│   ├── routes/
+│   ├── models/
+│   ├── controllers/
+│   ├── config/
+│   └── server.js
+└── README.md
