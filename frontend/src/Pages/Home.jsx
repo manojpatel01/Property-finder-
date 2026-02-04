@@ -122,12 +122,12 @@ export default function Home() {
                 </div>
                 <div className="mt-4 flex justify-between items-center">
                   <p className="text-xl font-bold text-indigo-600">${property.price}</p>
-                  <Link 
+                  {/* <Link 
                     to={`/properties/${property.id}`}
                     className="text-indigo-600 hover:text-indigo-800 font-medium"
                   >
                     View Details
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
